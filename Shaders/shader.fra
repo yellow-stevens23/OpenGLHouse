@@ -1,0 +1,13 @@
+#version 330
+
+in vec3 finalCol;
+in vec2 fragTexture;
+out vec4 colour;
+
+uniform sampler2D theTexture;
+
+void main()
+{
+	//colour = vec4(finalCol, 1.0);
+	colour = texture(theTexture, fragTexture) * vec4(finalCol, 1.0);
+}
