@@ -222,13 +222,13 @@ int main()
 	createObject(); // this will make the mesh
 	
 	// load textures. I am using one texture for each object which I can do using OOP and putting the objects together to make one scene
-	Texture brickTexture = Texture("bricks.png");
+	Texture brickTexture = Texture("Image/bricks.png");
 	brickTexture.loadTexture();
-	Texture grassTexture = Texture("grass.png");
+	Texture grassTexture = Texture("Image/grass.png");
 	grassTexture.loadTexture();
-	Texture roofTexture = Texture("roof.png");
+	Texture roofTexture = Texture("Image/roof.png");
 	roofTexture.loadTexture();
-	Texture doorTexture = Texture("door.png");
+	Texture doorTexture = Texture("Image/door.png");
 	doorTexture.loadTexture();
 	Shader shader = Shader();
 	shader.compileShader(pVSFilename, pFSFilename);
