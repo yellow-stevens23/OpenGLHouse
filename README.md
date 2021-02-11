@@ -1,5 +1,7 @@
 # OpenGLHouse
-3D House model with Camera class and textures. This requires OpenGL to work and also stb_image.h (available from https://github.com/nothings/stb/blob/master/stb_image.h ) and OpenGL Mathematics - GLM available from here: https://glm.g-truc.net/0.9.5/api/index.html 
+3D House model with Camera class and textures. This requires OpenGL to work and also OpenGL Mathematics - GLM available from here: https://glm.g-truc.net/0.9.5/api/index.html 
+
+This is now updated to run without stb_image. I have reinvented the wheel! I wanted to practice loading images, and this is the result. So it illustrates how to load BMP files as well as creating an object in a world you can move around in. 
 
 This is more complex 3D object with textures. It includes a Texture class and a Camera class. The Camera Class is heavily based on the work of Ben Cook who produced a udemy course on OpenGL. Do check it out. 
 
